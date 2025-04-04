@@ -15,3 +15,14 @@ for i in range(len(string)):
 
 result = ''.join(temp) if temp else 'FRULA'
 print(result)
+
+
+# # 메모리 폭발한 재귀
+# def solution(string, s):
+#     if string == "":
+#         return "FRULA" 
+#     elif 쾅 not in string:
+#         return string
+#     else:
+#         string = string.replace(s, "")
+#         return solution(string, s)
