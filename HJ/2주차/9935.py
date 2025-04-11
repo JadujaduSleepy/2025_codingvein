@@ -16,7 +16,6 @@ for i in range(len(string)):
 result = ''.join(temp) if temp else 'FRULA'
 print(result)
 
-
 # # 메모리 폭발한 재귀
 # def solution(string, s):
 #     if string == "":
